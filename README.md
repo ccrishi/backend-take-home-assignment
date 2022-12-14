@@ -1,9 +1,5 @@
-# Origin Backend Take-Home Assignment
-Origin offers its users an insurance package personalized to their specific needs without requiring the user to understand anything about insurance. This allows Origin to act as their *de facto* insurance advisor.
-
-Origin determines the user’s insurance needs by asking personal & risk-related questions and gathering information about the user’s vehicle and house. Using this data, Origin determines their risk profile for **each** line of insurance and then suggests an insurance plan (`"economic"`, `"regular"`, `"responsible"`) corresponding to her risk profile.
-
-For this assignment, you will create a simple version of that application by coding a simple API endpoint that receives a JSON payload with the user information and returns her risk profile (JSON again) – you don’t have to worry about the frontend of the application.
+# Backend Take-Home Assignment
+For this assignment, you will create a simple version of an insurance software application by coding a simple API endpoint that receives a JSON payload with the user information and returns her risk profile (JSON again) – you don’t have to worry about the frontend of the application.
 
 ## The input
 First, the would-be frontend of this application asks the user for her **personal information**. Then, it lets her add her **house** and **vehicle**. Finally, it asks her to answer 3 binary **risk questions**. The result produces a JSON payload, posted to the application’s API endpoint, like this example:
@@ -71,7 +67,7 @@ Considering the data provided above, the application should return the following
 ## Criteria
 You can choose any technology stack to implement this assignment. Using our stack is not a requirement in the selection process - we will consider exclusively that you build a solid system with an emphasis on code quality, simplicity, readability, maintainability, and reliability, particularly regarding architecture and testing to evaluate your work.
 
-Be aware that Origin will mainly take into consideration the following evaluation criteria:
+Be aware that Climate Connect Digital will mainly take into consideration the following evaluation criteria:
 * How clean and organized your code is;
 * If you implemented the business rules correctly;
 * How good your automated tests are (qualitative over quantitative).
